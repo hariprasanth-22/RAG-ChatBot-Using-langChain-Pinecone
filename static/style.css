@@ -1,0 +1,129 @@
+/* -------------------
+   Global Styles
+------------------- */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+/* -------------------
+   Card Styling
+------------------- */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------
+   Chat Bubbles
+------------------- */
+.chat-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-bubble {
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  max-width: 90%;
+  line-height: 1.4;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
+.chat-bubble.user {
+  background-color: #e2e3e5;
+  align-self: flex-end;
+}
+
+.chat-bubble.bot {
+  background-color: #d1e7dd;
+  align-self: flex-start;
+}
+
+/* -------------------
+   Spinner Styling
+------------------- */
+#spinner {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* -------------------
+   Preformatted Text (Sources)
+------------------- */
+pre {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
+
+/* -------------------
+   Dark Mode
+------------------- */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .chat-bubble.user {
+  background-color: #444;
+  color: #ffffff;
+}
+
+.dark-mode .chat-bubble.bot {
+  background-color: #2a7b5f;
+  color: #ffffff;
+}
+
+.dark-mode pre {
+  background-color: #222;
+  color: #ccc;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+}
+
+/* -------------------
+   Dark Mode Toggle Button
+------------------- */
+.btn-outline-secondary {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #e2e6ea;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+  background-color: #444;
+  color: white;
+}
+
+/* -------------------
+   File Upload Field
+------------------- */
+input[type="file"]::file-selector-button {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #0b5ed7;
+}
