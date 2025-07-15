@@ -19,8 +19,8 @@ An intelligent document-based chatbot powered by **LangChain**, **Google Gemini*
 - RAG pipeline with real-time semantic search
 
 ## 📸 Sample Screenshots
+![Uploading image.png…]()
 
-![WhatsApp Image 2025-07-13 at 22 14 40_cece985e](https://github.com/user-attachments/assets/9065eac1-e6be-476c-a0e5-ef218a71661f)
 
 
 ## 📂 File Structure
