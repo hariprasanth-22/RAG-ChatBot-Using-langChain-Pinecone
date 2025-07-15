@@ -1,3 +1,6 @@
+# RAG-ChatBot-Using-langChain-Pinecone
+>>>>>>> 0dc01f4e5c233e05464ecab33d92cd2085fa37b2
+=======
 # 🤖 RAG_Chatbot_with_LangChain_and_Pinecone
 
 An intelligent document-based chatbot powered by **LangChain**, **Google Gemini**, and **Pinecone**. This Flask web app uses **Retrieval-Augmented Generation (RAG)** to answer user queries based on uploaded `.txt`, `.pdf`, or `.docx` documents.
@@ -28,3 +31,6 @@ An intelligent document-based chatbot powered by **LangChain**, **Google Gemini*
 - ├── static/
 - │   └── style.css 
 - ├── requirements.txt
+=======
+# RAG-ChatBot-Using-langChain-Pinecone
+>>>>>>> 0dc01f4e5c233e05464ecab33d92cd2085fa37b2
